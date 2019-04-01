@@ -1,0 +1,57 @@
+[2019-03-12-17:48:13] FATAL updateConfig   -- **************************************
+[2019-03-12-17:48:13] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-12-17:48:13] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-12-17:48:13] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-12-17:48:13] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-12-17:48:13] FATAL updateConfig   -- **************************************
+[2019-03-12-17:48:15] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-12-17:48:15] ERROR updateConfig   -- ---------------------Update alarm Exception-------------------
+[2019-03-12-17:48:16] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-12-17:48:16] ERROR updateConfig   -- ---------------------Update attachment Exception-------------------
+[2019-03-12-17:48:17] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-12-17:48:17] ERROR updateConfig   -- ---------------------Update webapps Exception-------------------
+[2019-03-12-17:48:18] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-12-17:48:18] ERROR updateConfig   -- ---------------------Update bizquery Exception-------------------
+[2019-03-12-17:48:19] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-12-17:48:19] ERROR updateConfig   -- ---------------------Update tap Exception-------------------
+[2019-03-12-17:48:20] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-12-17:48:20] ERROR updateConfig   -- ---------------------Update algorithm Exception-------------------
+[2019-03-12-17:48:21] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-12-17:48:21] ERROR updateConfig   -- ---------------------Update UAP Exception-------------------
+[2019-03-12-17:48:22] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-12-17:49:50] FATAL updateConfig   -- **************************************
+[2019-03-12-17:49:50] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-12-17:49:50] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-12-17:49:50] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-12-17:49:50] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-12-17:49:50] FATAL updateConfig   -- **************************************
+[2019-03-12-17:49:52] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-12-17:49:52] ERROR updateConfig   -- ---------------------Update alarm Exception-------------------
+[2019-03-12-17:49:53] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-12-17:49:53] ERROR updateConfig   -- ---------------------Update attachment Exception-------------------
+[2019-03-12-17:49:54] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-12-17:49:54] ERROR updateConfig   -- ---------------------Update webapps Exception-------------------
+[2019-03-12-17:49:55] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-12-17:49:55] ERROR updateConfig   -- ---------------------Update bizquery Exception-------------------
+[2019-03-12-17:49:56] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-12-17:49:56] ERROR updateConfig   -- ---------------------Update tap Exception-------------------
+[2019-03-12-17:49:57] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-12-17:49:57] ERROR updateConfig   -- ---------------------Update algorithm Exception-------------------
+[2019-03-12-17:49:58] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-12-17:49:58] ERROR updateConfig   -- ---------------------Update UAP Exception-------------------
+[2019-03-12-17:49:59] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-12-18:59:33] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-12-18:59:33] ERROR updateConfig   -- ---------------------Update alarm Exception-------------------
+[2019-03-12-18:59:34] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-12-18:59:34] ERROR updateConfig   -- ---------------------Update attachment Exception-------------------
+[2019-03-12-18:59:35] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-12-18:59:35] ERROR updateConfig   -- ---------------------Update webapps Exception-------------------
+[2019-03-12-18:59:36] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-12-18:59:36] ERROR updateConfig   -- ---------------------Update bizquery Exception-------------------
+[2019-03-12-18:59:37] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-12-18:59:37] ERROR updateConfig   -- ---------------------Update tap Exception-------------------
+[2019-03-12-18:59:38] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-12-18:59:38] ERROR updateConfig   -- ---------------------Update algorithm Exception-------------------
+[2019-03-12-18:59:39] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-12-18:59:39] ERROR updateConfig   -- ---------------------Update UAP Exception-------------------
+[2019-03-12-18:59:40] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************

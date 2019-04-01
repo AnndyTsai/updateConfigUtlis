@@ -1,0 +1,762 @@
+[2019-03-11-13:47:18] DEBUG updateAction   -- create object with HandleJson method
+[2019-03-11-13:47:18] INFO  RwPropertiesUtlis   -- Building object
+[2019-03-11-13:47:18] INFO  RwPropertiesUtlis   -- Read buffer into stream success, Data [java.io.BufferedInputStream@6ec8211c]
+[2019-03-11-13:47:18] INFO  RwPropertiesUtlis   -- Load stream success, set the encoding is utf-8
+[2019-03-11-13:47:18] DEBUG RwPropertiesUtlis   -- Return pro object,Data[{jsonFilePath=./file/UpdateConfig.json, servers=alarm>attachment>webapps>bizquery>tap>algorithm>UAP>nodeWeb}]
+[2019-03-11-13:47:18] DEBUG updateAction   -- create rwPro object with RwPropertiesUtlis method
+[2019-03-11-13:47:18] INFO  RwPropertiesUtlis   -- Building object
+[2019-03-11-13:47:18] INFO  RwPropertiesUtlis   -- Read buffer into stream success, Data [java.io.BufferedInputStream@7276c8cd]
+[2019-03-11-13:47:18] INFO  RwPropertiesUtlis   -- Load stream success, set the encoding is utf-8
+[2019-03-11-13:47:18] DEBUG RwPropertiesUtlis   -- Return pro object,Data[{jsonFilePath=./file/UpdateConfig.json, servers=alarm>attachment>webapps>bizquery>tap>algorithm>UAP>nodeWeb}]
+[2019-03-11-13:47:18] DEBUG updateAction   -- create returnValue object with returnConfigJsonValue method
+[2019-03-11-13:47:18] DEBUG RwPropertiesUtlis   -- get the [servers] value:alarm>attachment>webapps>bizquery>tap>algorithm>UAP>nodeWeb
+[2019-03-11-14:08:44] INFO  RwPropertiesUtlis   -- Building object
+[2019-03-11-14:08:44] INFO  RwPropertiesUtlis   -- Read buffer into stream success, Data [java.io.BufferedInputStream@6ec8211c]
+[2019-03-11-14:08:44] INFO  RwPropertiesUtlis   -- Load stream success, set the encoding is utf-8
+[2019-03-11-14:08:44] DEBUG RwPropertiesUtlis   -- Return pro object,Data[{jsonFilePath=./file/UpdateConfig.json, servers=alarm>attachment>webapps>bizquery>tap>algorithm>UAP>nodeWeb}]
+[2019-03-11-14:08:44] INFO  returnConfigJsonValue   -- return JsonContextVaule for alarm.value
+[2019-03-11-14:08:44] DEBUG RwPropertiesUtlis   -- get the [jsonFilePath] value:./file/UpdateConfig.json
+[2019-03-11-14:08:44] INFO  HandleJson   -- from ./file/UpdateConfig.json get $.Layout.alarm[*].[*].value
+[2019-03-11-14:08:44] DEBUG HandleJson   -- return [[] ] data 
+[2019-03-11-14:08:44] INFO  returnConfigJsonValue   -- return JsonHeaderValue for alarm.isUpdate
+[2019-03-11-14:08:44] DEBUG RwPropertiesUtlis   -- get the [jsonFilePath] value:./file/UpdateConfig.json
+[2019-03-11-14:08:44] INFO  HandleJson   -- from ./file/UpdateConfig.json get $.Layout.alarm.isUpdate
+[2019-03-11-14:08:44] DEBUG HandleJson   -- return [true ] data 
+[2019-03-11-14:23:19] INFO  RwPropertiesUtlis   -- Building object
+[2019-03-11-14:23:19] INFO  RwPropertiesUtlis   -- Read buffer into stream success, Data [java.io.BufferedInputStream@6ec8211c]
+[2019-03-11-14:23:19] INFO  RwPropertiesUtlis   -- Load stream success, set the encoding is utf-8
+[2019-03-11-14:23:19] DEBUG RwPropertiesUtlis   -- Return pro object,Data[{jsonFilePath=./file/UpdateConfig.json, servers=alarm>attachment>webapps>bizquery>tap>algorithm>UAP>nodeWeb}]
+[2019-03-11-14:23:19] DEBUG RwPropertiesUtlis   -- get the [jsonFilePath] value:./file/UpdateConfig.json
+[2019-03-11-14:23:19] INFO  HandleJson   -- from ./file/UpdateConfig.json get .Comms.portIsContinuous.Safety
+[2019-03-11-14:23:19] DEBUG HandleJson   -- return [["0"] ] data 
+[2019-03-11-14:23:19] INFO  returnConfigJsonValue   -- return returnPortIsContinuousValue:["0"]
+[2019-03-11-14:23:19] DEBUG RwPropertiesUtlis   -- get the [jsonFilePath] value:./file/UpdateConfig.json
+[2019-03-11-14:23:19] INFO  HandleJson   -- from ./file/UpdateConfig.json get .Comms.portIsContinuous.Safety
+[2019-03-11-14:23:19] DEBUG HandleJson   -- return [["0"] ] data 
+[2019-03-11-14:23:19] DEBUG RwPropertiesUtlis   -- get the [jsonFilePath] value:./file/UpdateConfig.json
+[2019-03-11-14:23:19] INFO  HandleJson   -- from ./file/UpdateConfig.json get .Comms.portIsContinuous.Safety
+[2019-03-11-14:23:19] DEBUG HandleJson   -- return [["0"] ] data 
+[2019-03-11-14:23:19] INFO  returnConfigJsonValue   -- return returnPortIsContinuousValue:["0"]
+[2019-03-11-14:23:19] DEBUG RwPropertiesUtlis   -- get the [jsonFilePath] value:./file/UpdateConfig.json
+[2019-03-11-14:23:19] INFO  HandleJson   -- from ./file/UpdateConfig.json get .Comms.portIsContinuous.Safety
+[2019-03-11-14:23:19] DEBUG HandleJson   -- return [["0"] ] data 
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update alarm********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update attachment********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update webapps********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update bizquery********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update tap********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update algorithm********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update UAP********************
+[2019-03-11-14:37:38] FATAL updateConfig   -- *******************Satrt to Update nodeWeb********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update alarm/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update attachment/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update webapps/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update bizquery/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update tap/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update algorithm/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update UAP/t********************
+[2019-03-11-14:41:43] FATAL updateConfig   -- *******************Satrt to Update nodeWeb/t********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update alarm/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update attachment/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update webapps/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update bizquery/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update tap/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update algorithm/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update UAP/s ********************
+[2019-03-11-14:42:06] FATAL updateConfig   -- *******************Satrt to Update nodeWeb/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update alarm/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update attachment/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update webapps/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update bizquery/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update tap/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update algorithm/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update UAP/s ********************
+[2019-03-11-14:42:19] FATAL updateConfig   -- *******************Satrt to Update nodeWeb/s ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update alarm  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update attachment  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update webapps  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update bizquery  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update tap  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update algorithm  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update UAP  ********************
+[2019-03-11-14:42:26] FATAL updateConfig   -- ******************* Satrt to Update nodeWeb  ********************
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:03:25] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- alarmthe key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:03:25] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:03:25] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- webappsthe key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:03:25] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:03:25] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:03:25] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:03:25] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:03:25] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:03:25] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:03:25] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:03:25] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-15:03:25] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:03:25] ERROR FileUtils   -- Can't Find /mvsp/nodeweb/config.json
+[2019-03-11-15:03:25] ERROR FileUtils   -- FileInputStream exception 
+[2019-03-11-15:03:25] ERROR HandleJson   -- get $.port from /mvsp/nodeweb/config.json exception
+[2019-03-11-15:07:00] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:07:00] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- alarmthe key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:07:00] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:07:00] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:07:00] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:07:00] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- webappsthe key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:07:00] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:07:00] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:07:00] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:07:00] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:07:01] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:07:01] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:07:01] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:07:01] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-15:07:01] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:07:01] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:07:01] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:07:01] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-15:07:01] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:07:01] ERROR FileUtils   -- Can't Find /mvsp/nodeweb/config.json
+[2019-03-11-15:07:01] ERROR FileUtils   -- FileInputStream exception 
+[2019-03-11-15:07:01] ERROR HandleJson   -- get $.port from /mvsp/nodeweb/config.json exception
+[2019-03-11-15:07:01] ERROR updateConfig   -- 88888888888888888
+[2019-03-11-15:08:27] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:08:27] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- alarmthe key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:08:27] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:08:27] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:08:27] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:08:27] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- webappsthe key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:08:27] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:08:27] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:08:27] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:08:27] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:08:28] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:08:28] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:08:28] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:08:28] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-15:08:28] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:08:28] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:08:28] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:08:28] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-15:08:28] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:08:28] ERROR FileUtils   -- Can't Find /mvsp/nodeweb/config.json
+[2019-03-11-15:08:28] ERROR FileUtils   -- FileInputStream exception 
+[2019-03-11-15:08:28] ERROR HandleJson   -- get $.port from /mvsp/nodeweb/config.json exception
+[2019-03-11-15:37:14] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:37:14] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- alarmthe key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:37:14] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:37:14] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:37:14] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:37:14] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- webappsthe key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:37:14] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:37:14] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:37:14] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:37:14] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:37:15] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:37:15] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:37:15] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:37:15] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-15:37:15] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:37:15] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:37:15] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:37:15] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-15:37:15] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:37:15] ERROR FileUtils   -- Can't Find /mvsp/nodeweb/config.json
+[2019-03-11-15:37:15] ERROR HandleJson   -- get $.port from /mvsp/nodeweb/config.json exception
+[2019-03-11-15:37:15] ERROR updateConfig   -- -------------------------Update nodeWeb Exception---------------------------
+[2019-03-11-15:38:53] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:38:53] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- alarmthe key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-15:38:53] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:38:53] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:53] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-15:38:54] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:38:54] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- webappsthe key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-15:38:54] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:38:54] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-15:38:54] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:38:54] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:38:54] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-15:38:54] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:38:54] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:38:54] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-15:38:54] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:38:54] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:38:54] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-15:38:54] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-15:38:54] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:38:54] ERROR FileUtils   -- Can't Find /mvsp/nodeweb/config.json
+[2019-03-11-15:38:54] ERROR HandleJson   -- get $.port from /mvsp/nodeweb/config.json exception
+[2019-03-11-15:38:54] ERROR updateConfig   -- -------------------------Update nodeWeb Exception---------------------------
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:39:53] FATAL updateConfig   -- -------------------------Update nodeWeb Exception---------------------------
+[2019-03-11-15:42:04] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:42:04] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:42:04] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:42:04] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:42:04] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:42:05] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:42:05] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:42:05] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-15:58:05] FATAL updateConfig   -- **************************************
+[2019-03-11-15:58:05] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-11-15:58:05] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-11-15:58:05] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-11-15:58:05] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-11-15:58:05] FATAL updateConfig   -- **************************************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-15:58:07] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-16:02:24] FATAL updateConfig   -- **************************************
+[2019-03-11-16:02:24] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-11-16:02:24] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-11-16:02:24] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-11-16:02:24] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-11-16:02:24] FATAL updateConfig   -- **************************************
+[2019-03-11-16:02:26] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-17:47:28] FATAL updateConfig   -- **************************************
+[2019-03-11-17:47:28] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-11-17:47:28] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-11-17:47:28] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-11-17:47:28] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-11-17:47:28] FATAL updateConfig   -- **************************************
+[2019-03-11-17:47:30] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-17:47:30] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:30] ERROR PropertiesFileBuss   -- alarmthe key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-17:47:31] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-17:47:31] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:31] ERROR PropertiesFileBuss   -- attachmentthe key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-17:47:32] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-17:47:32] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:32] ERROR PropertiesFileBuss   -- webappsthe key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-17:47:33] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-17:47:33] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:33] ERROR PropertiesFileBuss   -- bizquerythe key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-17:47:34] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-17:47:34] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-17:47:34] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:34] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-17:47:35] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-17:47:35] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-17:47:35] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-17:47:35] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-17:47:36] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-17:47:36] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-17:47:36] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-17:47:36] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-17:47:36] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-17:47:36] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-17:47:37] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-18:16:59] FATAL updateConfig   -- **************************************
+[2019-03-11-18:16:59] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-11-18:16:59] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-11-18:16:59] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-11-18:16:59] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-11-18:16:59] FATAL updateConfig   -- **************************************
+[2019-03-11-18:17:01] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-18:17:01] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:01] ERROR PropertiesFileBuss   -- alarm the key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:17:02] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-18:17:02] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:02] ERROR PropertiesFileBuss   -- attachment the key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:17:03] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-18:17:03] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:03] ERROR PropertiesFileBuss   -- webapps the key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:17:04] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-18:17:04] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:04] ERROR PropertiesFileBuss   -- bizquery the key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:17:05] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-18:17:05] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-18:17:05] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:05] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:17:06] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-18:17:06] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-18:17:06] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-18:17:06] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-18:17:07] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-18:17:07] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-18:17:07] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-18:17:07] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-18:17:07] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-18:17:07] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-18:17:08] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************
+[2019-03-11-18:20:10] FATAL updateConfig   -- **************************************
+[2019-03-11-18:20:10] FATAL updateConfig   -- ************ UpdateConfig ************
+[2019-03-11-18:20:10] FATAL updateConfig   -- ********** Powered By Java1.8 ********
+[2019-03-11-18:20:10] FATAL updateConfig   -- ***********  Version:1.0   ***********
+[2019-03-11-18:20:10] FATAL updateConfig   -- *************  2019.3.11   ***********
+[2019-03-11-18:20:10] FATAL updateConfig   -- **************************************
+[2019-03-11-18:20:12] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-11-18:20:12] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[server.port] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[dataport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[deviceport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[activeport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[baseport] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[tapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:12] ERROR PropertiesFileBuss   -- alarm the key[uapip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:13] ERROR PropertiesFileBuss   -- alarm the key[dataip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:13] ERROR PropertiesFileBuss   -- alarm the key[deviceip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:13] ERROR PropertiesFileBuss   -- alarm the key[activeip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:13] ERROR PropertiesFileBuss   -- alarm the key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:13] ERROR PropertiesFileBuss   -- alarm the key[baseip] not existed, please check your config file/mvsp/server/mangrove-alarm/config/application.properties
+[2019-03-11-18:20:14] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-11-18:20:14] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[server.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[attachment.tap.ip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[websvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[adssvrpublicip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:14] ERROR PropertiesFileBuss   -- attachment the key[adssvrlocalip] not existed, please check your config file/mvsp/server/mangrove-attachment/config/application.properties
+[2019-03-11-18:20:15] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-11-18:20:15] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[httpSvrIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[evidenceIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[attachmentIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[alarmIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[mediaSearchIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[activeSafetyIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[bizQueryIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[adsServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[baseServerIp] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[httpSvrPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[nodePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[attachmentPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[alarmPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[mediaSearchPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[activeSafetyPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[bizQueryPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[adsServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[evidencePort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:15] ERROR PropertiesFileBuss   -- webapps the key[baseServerPort] not existed, please check your config file/mvsp/websvr/webapps/ROOT/WEB-INF/classes/config.properties
+[2019-03-11-18:20:16] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-11-18:20:16] ERROR RwPropertiesUtlis   -- read buffer exception, please check your codes
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[server.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[websvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[websvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[adssvrpublicport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[adssvrlocalport] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[websvrpublicip] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:16] ERROR PropertiesFileBuss   -- bizquery the key[attachment.listen.port] not existed, please check your config file/mvsp/server/mangrove-bizquery/config/application.properties
+[2019-03-11-18:20:17] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-11-18:20:17] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-18:20:17] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config exception! please checked
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tap server not existed , please confirmed the //portinfo[@name='808'] node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //ftpserverinfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://identifysvr node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tapserver not existed,please confirmed://webPorxy node/mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //httpsvr node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //mqInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //delegateInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:17] ERROR XMLFileBuss   -- tap server not existed, please confirmed the //alarmInfo node and /mvsp/server/mangrove-tap/config/MVSP_DeviceSvr.config config file
+[2019-03-11-18:20:18] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-11-18:20:18] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-18:20:18] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-algorithm/config/MVSP_IdentifySvr.config exception! please checked
+[2019-03-11-18:20:18] ERROR XMLFileBuss   -- handle the algorithm server config file,UpdateConfig.json found the undefinded type
+[2019-03-11-18:20:19] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-11-18:20:19] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-18:20:19] ERROR UpdatXMLAttr   -- get the file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config exception! please checked
+[2019-03-11-18:20:19] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='main'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-18:20:19] ERROR XMLFileBuss   -- UAP server not existed , please confirmed the //portinfo[@name='web'] node and /mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config config file
+[2019-03-11-18:20:19] ERROR XMLFileBuss   -- UAPserver not existed,please confirmed //serverinfonode, output file:/mvsp/server/mangrove-uap/config/MVSP_ClientSvr.config
+[2019-03-11-18:20:20] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************

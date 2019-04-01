@@ -1,0 +1,15 @@
+[2019-03-13-10:03:01] FATAL updateConfig   -- ******************* Start to Update alarm  ********************
+[2019-03-13-10:03:01] ERROR updateConfig   -- ---------------------Update alarm Exception-------------------
+[2019-03-13-10:03:02] FATAL updateConfig   -- ******************* Start to Update attachment  ********************
+[2019-03-13-10:03:02] ERROR updateConfig   -- ---------------------Update attachment Exception-------------------
+[2019-03-13-10:03:03] FATAL updateConfig   -- ******************* Start to Update webapps  ********************
+[2019-03-13-10:03:03] ERROR updateConfig   -- ---------------------Update webapps Exception-------------------
+[2019-03-13-10:03:04] FATAL updateConfig   -- ******************* Start to Update bizquery  ********************
+[2019-03-13-10:03:04] ERROR updateConfig   -- ---------------------Update bizquery Exception-------------------
+[2019-03-13-10:03:05] FATAL updateConfig   -- ******************* Start to Update tap  ********************
+[2019-03-13-10:03:05] ERROR updateConfig   -- ---------------------Update tap Exception-------------------
+[2019-03-13-10:03:06] FATAL updateConfig   -- ******************* Start to Update algorithm  ********************
+[2019-03-13-10:03:06] ERROR updateConfig   -- ---------------------Update algorithm Exception-------------------
+[2019-03-13-10:03:08] FATAL updateConfig   -- ******************* Start to Update UAP  ********************
+[2019-03-13-10:03:08] ERROR updateConfig   -- ---------------------Update UAP Exception-------------------
+[2019-03-13-10:03:09] FATAL updateConfig   -- ******************* Start to Update nodeWeb  ********************

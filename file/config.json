@@ -1,0 +1,37 @@
+{
+	"port":6021,
+	"server":[
+		{
+			"host":"127.0.0.1",
+			"port":6020
+		}
+	],
+	"shanbiaoServer":[
+		{
+			"host":"192.168.152.73",
+			"port":7456
+		}
+	],
+	"mvspServer":[
+		{
+			"host":"127.0.0.1",
+			"port":6020
+		}
+	],
+	"tapServer":[
+		{
+			"host":"192.168.152.73",
+			"port":7345
+		}
+	],
+	"baseServer":[
+		{
+			"host":"127.0.0.1",
+			"port":7453
+		}
+	],
+	"requestTimeout":20,
+	"socket":false,
+	"lang":"cn",
+	"mapType":"BMap"
+}
