@@ -1,7 +1,7 @@
 # updateConfigUtlis
-1：执行文件目录结构
-|————XXX.jar
-|————file文件夹
+##1：执行文件目录结构
+###|————XXX.jar
+###|————file文件夹
 	|————UpdateConfig.json
 	|————UpdateConfig.properties
 	|————ReadMe.txt
